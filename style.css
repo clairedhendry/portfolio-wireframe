@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16pt;
+    background-color: var(--secondary-bg-color);
+}
+
+:root {
+    --main-bg-color: rgb(116, 116, 116);
+    --secondary-bg-color: rgb(216, 216, 216);
+    --dark-txt-color: rgb(66, 66, 66);
+    --light-txt-color: rgb(168, 167, 167);
+ }
+
+header {
+    text-align: center;
+    background-color: var(--main-bg-color);
+}
+
+.header-navigation {
+    text-align: center;
+    background-color: var(--secondary-bg-color);
+    width: 100%;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    padding: 15px;;
+    background-color: var(--secondary-bg-color);
+    color: var(--dark-txt-color);
+}
+
+#bio {
+    background-color: var(--main-bg-color);
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: var(--light-txt-color);
+    width: 100%;
+    text-align: center;
+}   
